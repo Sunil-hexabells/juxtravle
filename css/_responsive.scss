@@ -1,0 +1,145 @@
+
+@media (max-width: 1599px) {
+    
+
+}
+
+
+
+@media (max-width: 1069px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+
+
+
+@media (max-width: 999px) {
+
+}
+
+
+
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+@media (max-width: 767px) {
+
+
+
+    .title{
+        font-size: 22px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    .comman-title {
+        margin-bottom: 5px;
+    }
+
+
+
+    header{
+        a.navbar-brand {
+            width: 191px;
+        }
+    }
+
+    section.heroslider{
+        .input-fild {
+            margin-bottom: 13px;
+        }
+        .slidercaption {
+            color: #fff;
+            padding: 50px 0px;
+            
+      h2{
+        font-size: 23px !important;
+        line-height: normal !important;
+      }
+
+      p{
+        font-size: 17px;
+    font-weight: 600;
+      }
+        }
+
+    
+    }
+
+    section.bookwithtoday {
+
+       .title{
+        font-size: 19px;
+        }
+    }
+ 
+    section.find-the-perfect{
+        ul.find-the-point{
+            li{
+                width: 100%;
+            }
+        }
+    }
+
+    section.bookwithtoday{
+        ul.bookpointbox{
+            li{
+                height: 81px;
+              h4{font-size: 24px;}
+                p{font-size: 12px;}
+            }
+        }
+    }
+
+    section.discover-top{
+        .angry-grid {
+            display: flex;
+            flex-direction: column;}
+    }
+
+    section.subscribe{
+        .subscribr-input{
+            flex-direction: column;
+
+            gap: 19px;
+        }
+        button.cubtn {
+            margin: 0px !important;
+            width: 100% !important;
+        }
+    }
+
+    footer{
+
+        .mainfooter {
+            padding: 10px 0px;
+        }
+       .curow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        gap: 22px;
+        }
+        .footer-links {
+            margin-top: 40px ! IMPORTANT;
+        }
+    }
+
+}
+
+@media (max-width: 643px) {
+
+}
+
+@media (max-width: 480px) {
+
+
+}
+
+/* Mobile devices */
+@media (max-width: 359px) {
+
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root {
+    --green-teal: #3EB5AE;
+    --background: #FBFBFB;
+    --grey-icon-color:#3B4249;
+    --green-teal-dark: #368C86;
+    --green-teal-darker: #2F6562;
+    --Primary-text-color: #212121;
+    --Text-secondary: #4F5962;
+    --grey-icon-color: #3B4249;
+}
+
+
+* {margin:0;
+    padding:0;
+    -webkit-box-sizing:  border-box;
+    -moz-box-sizing:  border-box;
+    box-sizing:  border-box;
+}
+
+html, body, table, th, td, tr, tbody, thead, thead, tfoot, dl, dt, dd, div, em, strong, b, i, sub, sup, ul, ol, li, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, blockquote, a, abbr, acronym, address, big, small, cite, code, del, dfn, font, ins, kbd, q, s, samp, strike, fieldset, form, label, legend, caption, main, section, header, footer, aside, hgroup{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    transition: all 0.3s ease-out 0s;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+.cls{ clear:both}
+
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family: "Lato", sans-serif;
+    background: var(--background, #FBFBFB);
+}
+
+img {
+    max-width:100%;
+    vertical-align:bottom;
+    border:none
+}
+
+ul, ol, li {
+    list-style:none;
+}
+
+a:focus,
+input:focus,
+select:focus {
+  outline: 0!important;
+}
+
+textarea {
+    resize: none;
+}
+.form-control:focus{box-shadow: none; outline: none;}
+
+a{ color:inherit;}
+
+a:hover{ text-decoration: none; color: inherit;}
+
+
+
+#page-warpper{
+    width:auto;
+}
+
+
+section{ padding: 50px 0px;}

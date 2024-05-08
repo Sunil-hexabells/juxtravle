@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Justtravel</title>
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <link rel="shortcut icon" href="images/fevicon.png" type="image" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+   </head>
+   <body>
+      <div id="page-warpper">
+         <header>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+               <div class="container">
+
+                 
+                  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" class="img-fluid"></a>
+                 
+                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Properties</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                        </li>
+                        <li class="nav-item login"  >
+                           <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" data-bs-toggle="modal" data-bs-target="#login">Login/Signup</a>
+                        </li>
+                     </ul>
+                  </div>
+
+                 
+               </div>
+            </nav>
+         </header>
+         <main>
+            <section class="heroslider">
+               <div class="container">
+                  <div class="row d-flex justify-content-center">
+                     <div class="col-12 col-lg-11">
+                        <div class="slidercaption">
+                           <h2>Book & Experience Amazing Places</h2>
+                           <p>WordPress Theme For Booking and Rental</p>
+                           <div class="row g-1">
+                              <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                                 <div class="input-fild">
+                                    <input type="text" class="form-control" placeholder="Where to go?" >
+                                    <div class="preicon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-lg-2 col-md-2 col-sm-12">
+                                 <div class="input-fild">
+                                    <input type="text" id="datepicker" class="form-control" placeholder="Arrive" >
+                                    <div class="preicon"><i class="fa-solid fa-calendar-days"></i></div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-lg-2 col-md-2 col-sm-12">
+                                 <div class="input-fild">
+                                    <input type="text" id="datepicker2" class="form-control" placeholder="Depart" >
+                                    <div class="preicon"><i class="fa-solid fa-calendar-days"></i></div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-lg-3 col-md-2 col-sm-12">
+                                 <div class="input-fild">
+                                    <input type="text" class="form-control" placeholder="Guests" aria-label="Last name">
+                                    <div class="preicon"><i class="fa-solid fa-user-group"></i></div>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-lg-1 col-md-2 col-sm-12">
+                                 <div class="input-fild">
+                                    <button type="submit" class="btn btn-cu">Search</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <style>
+               .featuredbox:hover .featboximg img {
+               transform: scale(1.1);
+               transition: 1s;
+               }
+            </style>
+            <section class="featured-accommodations">
+               <div class="container">
+                  <div class="row">
+                     <div class="comman-title text-center">
+                        <h3 class="title">Featured Accommodations </h3>
+                        <p class="subtitle">Step Inside Our Exclusive Collection of Unforgettable Stays</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-12 col-lg-12 col-xxl-12 col-md-12 col-sm-12">
+                        <div class="owl-carousel owl-theme" id="featured">
+                           <div class="item">
+                              <a href="">
+                                 <div class="featuredbox">
+                                    <div class="featboximg position-relative">
+                                       <img src="images/room.png" class="mx-auto d-block img-fluid" alt="room">
+                                       <div class="featuredtag ">Featured</div>
+                                       <div class="priceinfobox">
+                                          <div class="d-flex justify-content-between align-items-center ">
+                                             <p><sup><i class="fa fa-inr" aria-hidden="true"></i></sup> 1799.00 <sub>/Night</sub></p>
+                                             <img src="images/avatar.png" alt="icon">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="featuredinfo">
+                                       <h4>Beautiful Cove</h4>
+                                       <p>56 Forest View Dr, Jaipur, RJ 201224</p>
+                                       <ul class=" ponit-room">
+                                          <li><img src="images/icon/badrrom.png" alt="icon"> BadeRoom</li>
+                                          <li><img src="images/icon/bath.png" alt="icon"> 1 Baths</li>
+                                          <li><img src="images/icon/gust.png" alt="icon"> 2 Guests</li>
+                                          <li>Bed & Breakfast</li>
+                                       </ul>
+                                       <div class="d-flex justify-content-between align-items-center  feturboxview">
+                                          <div class="viewcount"><i class="fa-regular fa-star"></i> 4 - 0 Reviews</div>
+                                          <div><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+
+                           <div class="item">
+                              <a href="">
+                                 <div class="featuredbox">
+                                    <div class="featboximg position-relative">
+                                       <img src="images/room.png" class="mx-auto d-block img-fluid" alt="room">
+                                       <div class="featuredtag ">Featured</div>
+                                       <div class="priceinfobox">
+                                          <div class="d-flex justify-content-between align-items-center ">
+                                             <p><sup><i class="fa fa-inr" aria-hidden="true"></i></sup> 1799.00 <sub>/Night</sub></p>
+                                             <img src="images/avatar.png" alt="icon">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="featuredinfo">
+                                       <h4>Beautiful Cove</h4>
+                                       <p>56 Forest View Dr, Jaipur, RJ 201224</p>
+                                       <ul class=" ponit-room">
+                                          <li><img src="images/icon/badrrom.png" alt="icon"> BadeRoom</li>
+                                          <li><img src="images/icon/bath.png" alt="icon"> 1 Baths</li>
+                                          <li><img src="images/icon/gust.png" alt="icon"> 2 Guests</li>
+                                          <li>Bed & Breakfast</li>
+                                       </ul>
+                                       <div class="d-flex justify-content-between align-items-center  feturboxview">
+                                          <div class="viewcount"><i class="fa-regular fa-star"></i> 4 - 0 Reviews</div>
+                                          <div><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+
+
+                           <div class="item">
+                              <a href="">
+                                 <div class="featuredbox">
+                                    <div class="featboximg position-relative">
+                                       <img src="images/room.png" class="mx-auto d-block img-fluid" alt="room">
+                                       <div class="featuredtag ">Featured</div>
+                                       <div class="priceinfobox">
+                                          <div class="d-flex justify-content-between align-items-center ">
+                                             <p><sup><i class="fa fa-inr" aria-hidden="true"></i></sup> 1799.00 <sub>/Night</sub></p>
+                                             <img src="images/avatar.png" alt="icon">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="featuredinfo">
+                                       <h4>Beautiful Cove</h4>
+                                       <p>56 Forest View Dr, Jaipur, RJ 201224</p>
+                                       <ul class=" ponit-room">
+                                          <li><img src="images/icon/badrrom.png" alt="icon"> BadeRoom</li>
+                                          <li><img src="images/icon/bath.png" alt="icon"> 1 Baths</li>
+                                          <li><img src="images/icon/gust.png" alt="icon"> 2 Guests</li>
+                                          <li>Bed & Breakfast</li>
+                                       </ul>
+                                       <div class="d-flex justify-content-between align-items-center  feturboxview">
+                                          <div class="viewcount"><i class="fa-regular fa-star"></i> 4 - 0 Reviews</div>
+                                          <div><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+
+                           <div class="item">
+                              <a href="">
+                                 <div class="featuredbox">
+                                    <div class="featboximg position-relative">
+                                       <img src="images/room.png" class="mx-auto d-block img-fluid" alt="room">
+                                       <div class="featuredtag ">Featured</div>
+                                       <div class="priceinfobox">
+                                          <div class="d-flex justify-content-between align-items-center ">
+                                             <p><sup><i class="fa fa-inr" aria-hidden="true"></i></sup> 1799.00 <sub>/Night</sub></p>
+                                             <img src="images/avatar.png" alt="icon">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="featuredinfo">
+                                       <h4>Beautiful Cove</h4>
+                                       <p>56 Forest View Dr, Jaipur, RJ 201224</p>
+                                       <ul class=" ponit-room">
+                                          <li><img src="images/icon/badrrom.png" alt="icon"> BadeRoom</li>
+                                          <li><img src="images/icon/bath.png" alt="icon"> 1 Baths</li>
+                                          <li><img src="images/icon/gust.png" alt="icon"> 2 Guests</li>
+                                          <li>Bed & Breakfast</li>
+                                       </ul>
+                                       <div class="d-flex justify-content-between align-items-center  feturboxview">
+                                          <div class="viewcount"><i class="fa-regular fa-star"></i> 4 - 0 Reviews</div>
+                                          <div><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="find-the-perfect">
+               <div class="container">
+                  <div class="row">
+                     <div class="comman-title text-center">
+                        <h3 class="title">Find the Perfect Rental for Any Occasion or Need</h3>
+                        <p class="subtitle">From Cozy Hideaways to Luxurious Retreats, We’ve Got you Covered</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-12 col-lg-12 col-sm-12 col-md-12">
+                        <ul class="find-the-point">
+                           <li>
+                              <div class="boxfindimg">
+                                 <img src="images/find.png" class="img-fluid">
+                              </div>
+                              <div class="box">
+                                 <p> Apartment8 </p>
+                                 <small>8 Listings</small>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="boxfindimg">
+                                 <img src="images/find.png" class="img-fluid">
+                              </div>
+                              <div class="box">
+                                 <p> Apartment8 </p>
+                                 <small>8 Listings</small>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="boxfindimg">
+                                 <img src="images/find.png" class="img-fluid">
+                              </div>
+                              <div class="box">
+                                 <p> Apartment8 </p>
+                                 <small>8 Listings</small>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="boxfindimg">
+                                 <img src="images/find.png" class="img-fluid">
+                              </div>
+                              <div class="box">
+                                 <p> Apartment8 </p>
+                                 <small>8 Listings</small>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="boxfindimg">
+                                 <img src="images/find.png" class="img-fluid">
+                              </div>
+                              <div class="box">
+                                 <p> Apartment8 </p>
+                                 <small>8 Listings</small>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="bookwithtoday">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12 col-lg-5">
+                        <div class="bookimg">
+                           <img src="images/girlimg.png" class="img-fluid" alt="img">
+                        </div>
+                     </div>
+                     <div class="col-12 col-lg-7">
+                        <div class="bbokcaption">
+                           <p class="subtitle">Book with us today</p>
+                           <h3 class="title">Seize the Moment: Dive into Our
+                              Handpicked Rentals and Secure Your
+                              Dream Stay Now!
+                           </h3>
+                           <ul class="bookpointbox">
+                              <li>
+                                 <h4>250+</h4>
+                                 <p>Destinations</p>
+                              </li>
+                              <li>
+                                 <h4>850+</h4>
+                                 <p>Locations</p>
+                              </li>
+                              <li>
+                                 <h4>50+</h4>
+                                 <p>Members</p>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="discover-top">
+               <div class="container">
+                  <div class="row">
+                     <div class="comman-title text-center">
+                        <h3 class="title">Find the Perfect Rental for Any Occasion or Need</h3>
+                        <p class="subtitle">From Cozy Hideaways to Luxurious Retreats, We’ve Got you Covered</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="angry-grid">
+                        <div id="item-0">
+                           <div class="boxgrid">
+                              <img src="images/a.png" class="mx-auto d-block img-fluid" alt="img">
+                              <h3>Ooty</h3>
+                           </div>
+                        </div>
+                        <div id="item-1">
+                           <div class="boxgrid">
+                              <img src="images/b.png" class="mx-auto d-block img-fluid" alt="img">
+                              <h3>Shimla</h3>
+                           </div>
+                        </div>
+                        <div id="item-2">
+                           <div class="boxgrid">
+                              <img src="images/c.png" class="mx-auto d-block img-fluid" alt="img">
+                              <h3>Gulmarg</h3>
+                           </div>
+                        </div>
+                        <div id="item-3">
+                           <div class="boxgrid">
+                              <img src="images/d.png" class="mx-auto d-block img-fluid" alt="img">
+                              <h3>Jaisalmer</h3>
+                           </div>
+                        </div>
+                        <div id="item-4">
+                           <div class="boxgrid">
+                              <img src="images/e.png" class="mx-auto d-block img-fluid" alt="img">
+                              <h3>Dalhousie</h3>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="subscribe">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-12 col-lg-6">
+                        <div class="subscribecaption">
+                           <p>            Save up to 50% off on your next trip</p>
+                           <small>For our subscribers only! </small>
+                        </div>
+                     </div>
+                     <div class="col-12 col-lg-6">
+                        <div class="subscribr-input">
+                           <input type="text" class="form-control" placeholder="Enter your email here...">
+                           <button type="submit" class="cubtn">Sign Up</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="testimonials">
+               <div class="container">
+                  <div class="row">
+                     <div class="comman-title text-center">
+                        <h3 class="title">What our clients says</h3>
+                        <p class="subtitle">The biggest reward to satisfy our clients and share their experience with us</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-12 col-lg-12">
+                        <div class="owl-carousel owl-theme clintbox">
+                           <div class="item">
+                              <div class="clintsaybox">
+                                 <ul class="reviewclint">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                 </ul>
+                                 <div class="google">
+                                    <i class="fa-solid fa-circle-check"></i>  Google Reviews
+                                 </div>
+                                 <p>Justtravel has truly streamlined the rental process, Saving me time while helping me maximize my occupancy and revenue.</p>
+                                 <div class="clint-info">
+                                    <img src="images/avatar-a.png" class="img-fluid" alt="icon">
+                                    <div class="clintname">
+                                       <h4>James Moris</h4>
+                                       <p>01/05/2024</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="clintsaybox">
+                                 <ul class="reviewclint">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                 </ul>
+                                 <div class="google">
+                                    <i class="fa-solid fa-circle-check"></i>  Google Reviews
+                                 </div>
+                                 <p>Justtravel has truly streamlined the rental process, Saving me time while helping me maximize my occupancy and revenue.</p>
+                                 <div class="clint-info">
+                                    <img src="images/avatar-a.png" class="img-fluid" alt="icon">
+                                    <div class="clintname">
+                                       <h4>James Moris</h4>
+                                       <p>01/05/2024</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="clintsaybox">
+                                 <ul class="reviewclint">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                 </ul>
+                                 <div class="google">
+                                    <i class="fa-solid fa-circle-check"></i>  Google Reviews
+                                 </div>
+                                 <p>Justtravel has truly streamlined the rental process, Saving me time while helping me maximize my occupancy and revenue.</p>
+                                 <div class="clint-info">
+                                    <img src="images/avatar-a.png" class="img-fluid" alt="icon">
+                                    <div class="clintname">
+                                       <h4>James Moris</h4>
+                                       <p>01/05/2024</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="clintsaybox">
+                                 <ul class="reviewclint">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                 </ul>
+                                 <div class="google">
+                                    <i class="fa-solid fa-circle-check"></i>  Google Reviews
+                                 </div>
+                                 <p>Justtravel has truly streamlined the rental process, Saving me time while helping me maximize my occupancy and revenue.</p>
+                                 <div class="clint-info">
+                                    <img src="images/avatar-a.png" class="img-fluid" alt="icon">
+                                    <div class="clintname">
+                                       <h4>James Moris</h4>
+                                       <p>01/05/2024</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="clintsaybox">
+                                 <ul class="reviewclint">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                 </ul>
+                                 <div class="google">
+                                    <i class="fa-solid fa-circle-check"></i>  Google Reviews
+                                 </div>
+                                 <p>Justtravel has truly streamlined the rental process, Saving me time while helping me maximize my occupancy and revenue.</p>
+                                 <div class="clint-info">
+                                    <img src="images/avatar-a.png" class="img-fluid" alt="icon">
+                                    <div class="clintname">
+                                       <h4>James Moris</h4>
+                                       <p>01/05/2024</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="clintsaybox">
+                                 <ul class="reviewclint">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                 </ul>
+                                 <div class="google">
+                                    <i class="fa-solid fa-circle-check"></i>  Google Reviews
+                                 </div>
+                                 <p>Justtravel has truly streamlined the rental process, Saving me time while helping me maximize my occupancy and revenue.</p>
+                                 <div class="clint-info">
+                                    <img src="images/avatar-a.png" class="img-fluid" alt="icon">
+                                    <div class="clintname">
+                                       <h4>James Moris</h4>
+                                       <p>01/05/2024</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </main>
+         <footer>
+            <div class="mainfooter">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <div class="f-box">
+                           <div class="footer-links about-footers">
+                              <img src="images/logo.png" class="img-fluid" alt="footerlogo">
+                              <p>JuxtTravel is your one-stop destination for seamless hotel and home bookings. With a diverse range of accommodations, competitive prices, and user-friendly interface, we make travel planning effortless and enjoyable.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-8">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="footer-links">
+                                 <h4>Explore</h4>
+                                 <ul>
+                                    <li>
+                                       <a href="#">Apartment</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Hotel</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Homestay</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Spa & Wellness</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="footer-links">
+                                 <h4>Company </h4>
+                                 <ul>
+                                    <li>
+                                       <a href="#">Blogs & Press</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Listing</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="footer-links addressfooter">
+                                 <h4>Contact Us</h4>
+                                 <ul>
+                                    <li>
+                                       <a href="#"><img src="images/icon/add.png" alt="icon" class="infoicons"> Laxmi Nagar, Noida, 201031</a>
+                                    </li>
+                                    <li>
+                                       <a href="#"><img src="images/icon/call.png" alt="icon" class="infoicons">800 985 0923</a>
+                                    </li>
+                                    <li>
+                                       <a href="#"><img src="images/icon/mail.png" alt="icon" class="infoicons"> juxtravel@gmail.com</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class=" curow">
+                     <p>(C) 2024 Juxtravel, All rights reserved</p>
+                     <ul class="social-icons">
+                        <li><a href="" target="_blank"><img src="images/icon/fb.png" alt="icon"></a></li>
+                        <li><a href="" target="_blank"><img src="images/icon/insta.png" alt="icon"></a></li>
+                        <li><a href="" target="_blank"><img src="images/icon/you.png" alt="icon"></a></li>
+                        <li><a href="" target="_blank"><img src="images/icon/twitter.png" alt="icon"></a></li>
+                        <li><a href="" target="_blank"><img src="images/icon/pinterest.png" alt="icon"></a></li>
+                        <li><a href="" target="_blank"><img src="images/icon/linkedin.png" alt="icon"></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <div class="allmodal">
+            <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Log in or sign up</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="modalloginbox">
+                           <h4> Welcome to Juxtravel</h4>
+                           <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+                              <input type="email" class="form-control" placeholder="+91">
+                           </div>
+                           <p>We’ll call or text you to confirm your number. Standard message and data rates apply. <a href="">Privacy Policy.</a></p>
+                           <button type="submit" class="btn bnt-block loginbtnmodal">Continue</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Modal -->
+      </div>
+   </body>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+   <script src="js/custom.js"></script>
+</html>
