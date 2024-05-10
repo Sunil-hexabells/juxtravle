@@ -1,0 +1,82 @@
+.my-bookings{
+    .featured{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .date-room {
+        display: flex;
+        border-top: 1px solid var(--stroke);
+        border-bottom: 1px solid var(--stroke);
+        margin: 12px 0 14px;
+        .label {
+            color: var(--secondary-text-color);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            margin-bottom: 6px;
+        }
+        .value{
+            color: var(--text-secondary);
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+            b{
+                font-weight: 700;
+                font-size: 15px;
+                color: var(--grey-icon-color);
+            }
+        }
+        .executive-room{
+            padding: 10px 0;
+            .label{
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--grey-icon-color);
+            }
+        }
+        .travel-date{
+            padding: 10px 40px 10px 0;
+            border-right: 1px solid var(--stroke);
+            margin-right: 40px;
+        }
+    }
+    .cancel-btn{
+        margin-top: 14px;
+    }
+    .custom-nav-tab{
+        margin-bottom: 35px;
+    }
+    .similar-listing { 
+        .similar-listing-div{
+            &:not(:last-child){
+                margin-bottom: 40px;
+            }
+        }
+        .content .reviews{
+            line-height: 26px;
+        }
+        .img-container {
+            width: 300px;
+            img{
+                object-fit: cover;
+            }
+        }
+    }
+    .bottom-btns{
+        .btn{
+            font-weight: 500;
+            &:not(:last-child){
+                margin-right: 30px;
+            }
+        }
+        .btn-text{
+            color: var(--green-teal-darker);
+        }
+        .btn-solid{
+            width: 164px;
+            background-color: var(--green-teal-dark);
+            border-color: var(--green-teal-dark);
+        }
+    }
+}

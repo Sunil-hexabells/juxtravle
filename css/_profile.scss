@@ -1,0 +1,111 @@
+/* Sidebar */
+.sidebar-div {
+    /* height: calc(100vh - 124px);
+    overflow: auto; */
+    border-right: 1px solid var(--stroke);
+    background: rgba(248, 248, 248, 0.45);
+    padding-bottom: 40px;
+    position: sticky;
+    top: 70px;
+}
+
+.sidebar-div .accounts {
+    border-bottom: 1px solid var(--stroke);
+}
+
+.sidebar-div .accounts .menu-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu-title {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sub-menu-title {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    transition: 0.5s ease-in-out;
+    &.active{
+        color: var(--green-teal-darker);
+        font-weight: 700;
+        &::before{
+            content: "\f054";
+            position: absolute;
+            font-family: 'FontAwesome';
+        }
+    }
+    &:hover{
+        color: var(--green-teal-darker);
+    }
+}
+
+.sub-menu-title:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.sidebar-inner {
+    padding: 24px;
+    &:not(:last-child){
+        border-bottom: 1px dashed var(--stroke);
+    }
+}
+
+.main-wrapper {
+    padding: 50px 150px 40px 20px;
+}
+
+// ********* Dashboard ***********
+.dashboard-view{
+    background-color: #fff;
+    border-top: 1px solid var(--stroke);
+    .dashboard-page-title{
+        color: var(--green-teal-darker);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 41.6px;
+        margin-bottom: 30px;
+    }
+}
+
+// profile
+.profile-details {
+    table td{
+        color: var(--grey-icon-color);
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px 75px;
+    }
+    .edit-btn{
+        margin-top: 70px;
+        font-size: 15px;
+    }
+}
+.profile-details table td:first-child{
+    padding-left: 0;
+}
+
+.profile-details table td a{
+    color: var(--primary-color);
+}
+
+
+@media (max-width: 575.98px){
+    .profile-details table td {
+        padding: 20px 15px;
+        word-break: break-word;
+        font-size: 15px;
+    }
+    .profile-details .edit-btn{
+        margin-top: 40px;
+    }
+    .form--wrapper .inp-group-ico{
+        width: auto;
+    }
+}
