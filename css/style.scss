@@ -5,13 +5,16 @@
 @import url(../css/all.min.css);
 @import 'reset.scss';
 @import 'common.scss';
-
+@import 'main.scss'; 
 
 
 header{
     background: #fff;
     padding: 10px 0px;
     li.nav-item{ padding: 4px 10px;}
+
+  
+
     a.nav-link{ color: $p-color !important;font-weight: 600;}
     li.nav-item.login {
  padding-right: 0px;
@@ -31,12 +34,32 @@ header{
     
     li.nav-item.dropdown.afterlogin {
         padding: 3px 11px !important;
+        position: relative;
         border: 1px solid 
         #D8DCE1;
         border-radius: 27px;
         .fa {
             font-size: 23px;
             padding: 8px 0px;
+        }
+        .dropdown-item{
+            font-size: 14px;
+            padding: 10px !important;
+        }
+        span.badegs {
+            width: 25px;
+            height: 25px;
+            background: antiquewhite;
+            text-align: center;
+            border-radius: 50%;
+            position: absolute;
+            right: 3px;
+            top: -9px;
+            border: 2px solid var(--White, #FFF);
+            background: var(--green-teal, #3EB5AE);
+            color: #fff;
+            line-height: 24px;
+            font-size: 12px;
         }
         a{ padding: 0px; display: flex;
 
@@ -58,6 +81,16 @@ header{
     }
 
     .dropdown-toggle::after{ display: none !important;}
+   
+    ul.dropdown-menu {
+        padding: 0px;
+
+      
+    }
+    hr.dropdown-divider {
+        margin: 0px;
+    }
+   
 }
 
 
@@ -112,7 +145,7 @@ button.btn.btn-cu {
     background: #2f6562;
     color: #fff;
     border-radius: 3px;
-    padding: 9px 15px;
+    padding: 1px 15px;
 }
 
 
@@ -620,6 +653,43 @@ font-weight: 600;
 
     }
    
+#signup{
+
+    button.btn.btn-primary.btn-block.w-100 {
+        background: #2f6562;
+    }
+}
+   
+
+    .otpbox{
+        form input{
+            display:inline-block;
+            width:50px;
+            height:50px;
+            text-align:center;
+            color: var(--green-teal-dark, #368C86);
+
+
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 4px;
+border: 1px solid var(--stroke, #C7C6C6);
+          }
+
+          .otpbox p {
+            margin-top: 20px;
+            color: var(--secondary-colour, #888);
+    
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+
 
     
 }

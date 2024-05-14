@@ -26,7 +26,9 @@
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) {
 
-
+    section {
+        padding: 30px 0px;
+    }
 
     .title{
         font-size: 22px;
@@ -127,6 +129,41 @@
             margin-top: 40px ! IMPORTANT;
         }
     }
+
+    section.contact-uspage {
+        .conact-info-page {
+            padding-right: 0px;
+        }
+        .conctinfo {
+            margin-top: 64px;
+        }
+    }
+    .about-page {
+        .ourstory {
+            p.stryhere{
+                column-count: 1;
+            }
+        }
+        .teaminfo {
+            margin-bottom: 31px;
+            text-align: center;
+            img {
+                width: 100%;
+            }
+        }
+        .pressroom {
+            margin-bottom: 30px;
+        }
+    }
+
+    .checkoutpage {
+        .mainboxcheckbox {
+            .hotelname{
+                font-size: 19px;
+            }
+        }
+    }
+
 
 }
 
