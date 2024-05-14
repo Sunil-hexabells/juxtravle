@@ -19,6 +19,27 @@ $('#featured').owlCarousel({
     }
 })
 
+$('#our-partners').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:true,
+    navText: ["Next", "Previous"],
+    autoplay: true,    
+    autoplaySpeed: 1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
 $('.clintbox').owlCarousel({
     loop:true,
     margin:10,
@@ -39,6 +60,7 @@ $('.clintbox').owlCarousel({
         }
     }
 })
+
 
 
 

@@ -1173,7 +1173,14 @@ font-weight: 400;
 line-height: 25px; 
         }
     }
-
+    h4 {
+        color: #7A7A7A;
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+    }
 
     .accordion-button::after {
         background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
@@ -1182,7 +1189,643 @@ line-height: 25px;
       .accordion-button:not(.collapsed)::after {
         background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
       }.accordion-item{ border: none !important;}
+      .accordion-button:not(.collapsed){
+        background-color: transparent !important;
+        box-shadow: none !important;
+      }
+      .accordion-button:focus{ box-shadow: none;}
+
+      .card-body {
+        padding: 14px 32px;}
+}
+
+
+.about-page{
+
+
+h3.title {
+    color: var(--green-teal-darker, #2F6562);
+   
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.ourstory{
+    p.stryhere {
+        column-count: 2;
+        column-gap: 45px;
+        color: #7A7A7A;
+font-family: Lato;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+    }
+}
+
+section.ourvalue{
+
+ 
+    .valuebox{
+        margin-bottom: 31px;
+    
+        img {
+            border-radius: 4px;
+        }
+    }
+   
+    .valueboxcaption{
+        h4 {
+            color: var(--green-teal, #3EB5AE);
+        
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            margin: 8px 0px;
+        }
+        p {
+            color: #7A7A7A;
+        
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+        }
+    }
+}
+
+section.ourteam{
+    p.teampersonanmes {
+        color: #7A7A7A;
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+
+        margin-top: 17px;
+        span {
+            display: block;
+            font-weight: 500;
+        }
+    }
+    
+}
+
+
+section.pressroom{
+    .preeroom-caption{
+
+        background: #fff;
+        padding: 20px;
+
+        h4{
+            color: #3B4249;
+
+
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 162.5% */
+        }
+        p {
+            color: #3B4249;
+            font-family: Lato;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            margin: 13px 0px;
+        }
+        .preeroom-caption {
+            background: #fff;
+            padding: 13px 17px;
+        }
+      .bloginfo {
+            color: #3B4249;
+            font-family: Lato;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+
+            column-gap: 21px;
+
+            span{
+                color: var(--green-teal, #3EB5AE);
+            }
+        }
+        .tag {
+            color: var(--green-teal, #3EB5AE);
+            margin-top: 10px;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+
+            i{ color: #000;}
+        }
+    }
+}
 
 }
+
+
+
+   
+
+
+.checkoutpage{
+
+    .title {
+        color: #3B4249;
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+
+    .guest-details{
+        h3.boxtitle{ padding-top: 24px; padding-left: 24px;}
+        form {
+            .formlogincontnt.row.g-3 {
+                padding: 24px;
+            }
+           .loginbtnform {
+                padding: 6px 24px;
+                background: #EBF5FF;
+            }
+        }
+
+        
+
+        button.btn.btn-submit {
+            border-radius: 4px;
+            border: 1px solid var(--green-teal, #3EB5AE);
+            background: #FFF;
+        }
+
+        label.form-check-label{
+            color: var(--grey-icon-color, #3B4249);
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+
+
+            span{ font-size: 12px;}
+        }
+
+
+label.form-label {
+    color: #7A7A7A;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+
+    span {
+        font-size: 11px;
+    }
+
+   
+}
+
+
+    }
+
+    .important-info{
+        background-color: #3eb5ae33 !important;
+        border: 2px dashed #4ca9a5;
+        h3.boxtitle{ font-weight: 600;}
+        ul{
+            margin-top: 5px;
+        li {
+            color: var(--grey-icon-color, #3B4249);
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+            margin: 10px 0px;
+        }}
+    }
+    .mainboxcheckbox{
+
+        .tandcline {
+            color: #7A7A7A;
+            font-family: Lato;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 15.6px;
+
+            a{ color:#0084FF;;}
+        }
+
+        .threesmbox.midbox {
+            width: 24%;
+        }
+        .threesmbox {
+            width: 35%;
+        }
+        .hotelname {
+            color: var(--grey-icon-color, #3B4249);
+            font-family: Lato;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 38px;
+        }
+        p.address {
+            color: #3B4249;
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        .hotelrationg {
+            color: #FFA236;
+            font-size: 13px;
+            column-gap: 5px;
+            margin: 5px 0px;
+        }
+        h3.boxtitle {
+            color: var(--grey-icon-color, #3B4249);
+            font-family: Lato;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+        }
+        .timebook {
+            color: #7A7A7A;
+            font-family: Lato;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16.9px;
+            letter-spacing: -0.13px;
+            text-align: center;
+            border: 1px solid #7A7A7A;
+            padding: 3px;
+            border-radius: 4px;
+            margin: auto;
+        }
+        .check-in{
+
+            .sectitle {
+                color: #7A7A7A;
+                font-family: Lato;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 21px;
+            }
+            p.daytime {
+                color: var(--grey-icon-color, #3B4249);
+                font-family: Lato;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 21px;
+            }
+            p.day {
+                color: var(--Text-secondary, #4F5962);
+                font-family: Lato;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px;
+
+                span{ font-weight: 700;}
+            }
+            
+        }
+
+    }
+    .datecheckin {
+        padding: 21px 0px;
+    }
+    .roomtype-info {
+        padding: 0px 50px;
+    }
+    article.sm-boxcheck {
+        background: #fff;
+        border-bottom: 1px solid #cccccc54;
+    }
+
+    .boxbody {
+        padding: 24px;
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16);
+    }
+
+    .sidebartititle{ padding: 15px;}
+    .mainboxcheckbox{
+        .hotel-imgbox {
+            width: 133px;
+        }
+       
+    }
+
+   .your-Stay {
+    label.form-check-label {
+        color: var(--grey-icon-color, #3B4249);
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .form-check-input[type=checkbox] {
+        border-radius: 0px;
+    }
+    .form-check {
+        margin-top: 12px;
+    }
+    }
+.inclusions{
+
+    a {
+        color: var(--green-teal-darker, #2F6562);
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    ul{
+        li{
+            margin-left: 24px;
+            color: var(--grey-icon-color, #3B4249);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    position: relative;
+    padding: 4px 0px;
+   
+    &::before{
+        content: "\f00c";
+    position: absolute;
+    left: -23px;
+    font-family: "FontAwesome";
+    color: var(--green-teal-darker);
+    }
+        }
+    }
+}
+    
+.accordiyanmain{
+    button.accordion-btn {
+        background: none;
+        border: 0px;
+    }
+
+  .accordion-header {
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  .accordion-body {
+    display: none;
+    padding: 10px;
+  }
+  p.accoditan-title {
+    color: var(--grey-icon-color, #3B4249);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+  p.text-red {
+    color: #F00;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+}
+a.btn-payhotel.pay-hotel {
+    background: #fff;
+    color: #2f6562;
+}
+a.btn-payhotel {
+    border-radius: 4px;
+    background: var(--green-teal-darker, #2F6562);
+    width: 44%;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 0px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border: 1px solid;
+    border: 1px solid var(--green-teal-darker, #2F6562);
+}
+button.btn.bnt-link.addgust-btn {
+    color: var(--green-teal-darker, #2F6562);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.exrafilds{
+   .form-check-input {
+        float: left;
+        margin-left: -1px;
+        border-radius: 0px !important;
+    }
+    label.form-check-label {
+        color: var(--grey-icon-color, #3B4249);
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin-left: 8px;
+    }
+    .form-check.form-check-inline {
+        border: 1px solid #ccc;
+        padding: 7px 13px;
+        margin: 5px 4px;
+        border-radius: 4px;
+    }
+    label.form-label {
+        color: #000;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+    aside.sidebarckecout {
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16);
+        background: #fff;
+  
+        margin-bottom: 20px;
+
+
+        .colortext{
+            color: var(--green-teal-dark, #368C86) !important;
+        }
+        .asidebody {
+            padding: 15px 15px;
+        }
+
+        h5 {
+            color: var(--Primary-text-color, #212121);
+            font-family: Lato;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+
+            a{color: var(--green-teal-dark, #368C86);
+            }
+        }
+
+
+        
+    .signinpoint li {
+        color: var(--Primary-text-color, #212121);
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        padding: 6px 45px;
+position: relative;
+
+        span{ font-weight: 700;}
+
+
+        &::before{content: "\f00c"; position: absolute; left: 23px;font-family: 'FontAwesome';     color: var(--green-teal-darker);}
+    }
+
+    .Price-Breaku{
+
+        li{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #D8DCE1;
+            padding: 13px 0px;
+            color: var(--grey-icon-color, #3B4249);
+            font-family: Lato;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22.5px; /* 150% */
+            margin: 0px 15px;
+          
+            small{
+                display: block;
+            }
+            &.discount {
+                color: var(--green-teal-dark, #368C86) !important;
+            }
+
+           &.total {
+                background: #F2F2F2;
+                margin: 0px;
+                padding: 14px 15px;
+            }
+
+        }
+    }
+
+
+   .discontcoupen{
+li{
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed #ccc;
+    margin: 10px 0px;
+    padding: 9px;
+    margin-bottom: 21px;
+small{
+    color: #7A7A7A;
+
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 15.6px; /* 120% */
+display: block;
+margin-left: 24px;
+}
+    label.form-check-label{
+    color: var(--grey-icon-color, #3B4249);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+    .pricebar{
+        color: var(--grey-icon-color, #3B4249);
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 150% */
+    }
+
+
+    &.appylyfild{
+        border: 0px;
+        padding: 0px;
+    input.inputfild {
+        width: 80%;
+        padding: 7px 5px;
+    }
+
+    input[type="submit"] {
+        width: 28%;
+        border: 0px;
+        background: var(--green-teal-darker, #2F6562);
+        color: var(--White, #FFF);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+    }
+
+}
+
+}
+    }
+
+
+
+    }
+    
+
+
+
+
+}
+
 
 @import 'responsive.scss'

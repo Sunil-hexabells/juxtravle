@@ -1081,6 +1081,14 @@ section.contact-uspage .conctinfo p {
   font-weight: 400;
   line-height: 25px;
 }
+.faq-conatnt h4 {
+  color: #7A7A7A;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
 .faq-conatnt .accordion-button::after {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
   transform: scale(0.7) !important;
@@ -1090,6 +1098,534 @@ section.contact-uspage .conctinfo p {
 }
 .faq-conatnt .accordion-item {
   border: none !important;
+}
+.faq-conatnt .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.faq-conatnt .accordion-button:focus {
+  box-shadow: none;
+}
+.faq-conatnt .card-body {
+  padding: 14px 32px;
+}
+
+.about-page h3.title {
+  color: var(--green-teal-darker, #2F6562);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.about-page .ourstory p.stryhere {
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+  color: #7A7A7A;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 166.667% */
+}
+.about-page section.ourvalue .valuebox {
+  margin-bottom: 31px;
+}
+.about-page section.ourvalue .valuebox img {
+  border-radius: 4px;
+}
+.about-page section.ourvalue .valueboxcaption h4 {
+  color: var(--green-teal, #3EB5AE);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 8px 0px;
+}
+.about-page section.ourvalue .valueboxcaption p {
+  color: #7A7A7A;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+}
+.about-page section.ourteam p.teampersonanmes {
+  color: #7A7A7A;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 17px;
+}
+.about-page section.ourteam p.teampersonanmes span {
+  display: block;
+  font-weight: 500;
+}
+.about-page section.pressroom .preeroom-caption {
+  background: #fff;
+  padding: 20px;
+}
+.about-page section.pressroom .preeroom-caption h4 {
+  color: #3B4249;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+.about-page section.pressroom .preeroom-caption p {
+  color: #3B4249;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 13px 0px;
+}
+.about-page section.pressroom .preeroom-caption .preeroom-caption {
+  background: #fff;
+  padding: 13px 17px;
+}
+.about-page section.pressroom .preeroom-caption .bloginfo {
+  color: #3B4249;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  -moz-column-gap: 21px;
+       column-gap: 21px;
+}
+.about-page section.pressroom .preeroom-caption .bloginfo span {
+  color: var(--green-teal, #3EB5AE);
+}
+.about-page section.pressroom .preeroom-caption .tag {
+  color: var(--green-teal, #3EB5AE);
+  margin-top: 10px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.about-page section.pressroom .preeroom-caption .tag i {
+  color: #000;
+}
+
+.checkoutpage .title {
+  color: #3B4249;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+.checkoutpage .guest-details h3.boxtitle {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.checkoutpage .guest-details form .formlogincontnt.row.g-3 {
+  padding: 24px;
+}
+.checkoutpage .guest-details form .loginbtnform {
+  padding: 6px 24px;
+  background: #EBF5FF;
+}
+.checkoutpage .guest-details button.btn.btn-submit {
+  border-radius: 4px;
+  border: 1px solid var(--green-teal, #3EB5AE);
+  background: #FFF;
+}
+.checkoutpage .guest-details label.form-check-label {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.checkoutpage .guest-details label.form-check-label span {
+  font-size: 12px;
+}
+.checkoutpage .guest-details label.form-label {
+  color: #7A7A7A;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+.checkoutpage .guest-details label.form-label span {
+  font-size: 11px;
+}
+.checkoutpage .important-info {
+  background-color: rgba(62, 181, 174, 0.2) !important;
+  border: 2px dashed #4ca9a5;
+}
+.checkoutpage .important-info h3.boxtitle {
+  font-weight: 600;
+}
+.checkoutpage .important-info ul {
+  margin-top: 5px;
+}
+.checkoutpage .important-info ul li {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 10px 0px;
+}
+.checkoutpage .mainboxcheckbox .tandcline {
+  color: #7A7A7A;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+.checkoutpage .mainboxcheckbox .tandcline a {
+  color: #0084FF;
+}
+.checkoutpage .mainboxcheckbox .threesmbox.midbox {
+  width: 24%;
+}
+.checkoutpage .mainboxcheckbox .threesmbox {
+  width: 35%;
+}
+.checkoutpage .mainboxcheckbox .hotelname {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+}
+.checkoutpage .mainboxcheckbox p.address {
+  color: #3B4249;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.checkoutpage .mainboxcheckbox .hotelrationg {
+  color: #FFA236;
+  font-size: 13px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  margin: 5px 0px;
+}
+.checkoutpage .mainboxcheckbox h3.boxtitle {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.checkoutpage .mainboxcheckbox .timebook {
+  color: #7A7A7A;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.9px;
+  letter-spacing: -0.13px;
+  text-align: center;
+  border: 1px solid #7A7A7A;
+  padding: 3px;
+  border-radius: 4px;
+  margin: auto;
+}
+.checkoutpage .mainboxcheckbox .check-in .sectitle {
+  color: #7A7A7A;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+.checkoutpage .mainboxcheckbox .check-in p.daytime {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+.checkoutpage .mainboxcheckbox .check-in p.day {
+  color: var(--Text-secondary, #4F5962);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.checkoutpage .mainboxcheckbox .check-in p.day span {
+  font-weight: 700;
+}
+.checkoutpage .datecheckin {
+  padding: 21px 0px;
+}
+.checkoutpage .roomtype-info {
+  padding: 0px 50px;
+}
+.checkoutpage article.sm-boxcheck {
+  background: #fff;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.3294117647);
+}
+.checkoutpage .boxbody {
+  padding: 24px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16);
+}
+.checkoutpage .sidebartititle {
+  padding: 15px;
+}
+.checkoutpage .mainboxcheckbox .hotel-imgbox {
+  width: 133px;
+}
+.checkoutpage .your-Stay label.form-check-label {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.checkoutpage .your-Stay .form-check-input[type=checkbox] {
+  border-radius: 0px;
+}
+.checkoutpage .your-Stay .form-check {
+  margin-top: 12px;
+}
+.checkoutpage .inclusions a {
+  color: var(--green-teal-darker, #2F6562);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.checkoutpage .inclusions ul li {
+  margin-left: 24px;
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  padding: 4px 0px;
+}
+.checkoutpage .inclusions ul li::before {
+  content: "\f00c";
+  position: absolute;
+  left: -23px;
+  font-family: "FontAwesome";
+  color: var(--green-teal-darker);
+}
+.checkoutpage .accordiyanmain button.accordion-btn {
+  background: none;
+  border: 0px;
+}
+.checkoutpage .accordiyanmain .accordion-header {
+  padding: 10px;
+  cursor: pointer;
+}
+.checkoutpage .accordiyanmain .accordion-body {
+  display: none;
+  padding: 10px;
+}
+.checkoutpage .accordiyanmain p.accoditan-title {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.checkoutpage .accordiyanmain p.text-red {
+  color: #F00;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.checkoutpage a.btn-payhotel.pay-hotel {
+  background: #fff;
+  color: #2f6562;
+}
+.checkoutpage a.btn-payhotel {
+  border-radius: 4px;
+  background: var(--green-teal-darker, #2F6562);
+  width: 44%;
+  display: inline-block;
+  text-align: center;
+  padding: 8px 0px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border: 1px solid;
+  border: 1px solid var(--green-teal-darker, #2F6562);
+}
+.checkoutpage button.btn.bnt-link.addgust-btn {
+  color: var(--green-teal-darker, #2F6562);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.checkoutpage .exrafilds .form-check-input {
+  float: left;
+  margin-left: -1px;
+  border-radius: 0px !important;
+}
+.checkoutpage .exrafilds label.form-check-label {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-left: 8px;
+}
+.checkoutpage .exrafilds .form-check.form-check-inline {
+  border: 1px solid #ccc;
+  padding: 7px 13px;
+  margin: 5px 4px;
+  border-radius: 4px;
+}
+.checkoutpage .exrafilds label.form-label {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 20px;
+}
+.checkoutpage aside.sidebarckecout {
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16);
+  background: #fff;
+  margin-bottom: 20px;
+}
+.checkoutpage aside.sidebarckecout .colortext {
+  color: var(--green-teal-dark, #368C86) !important;
+}
+.checkoutpage aside.sidebarckecout .asidebody {
+  padding: 15px 15px;
+}
+.checkoutpage aside.sidebarckecout h5 {
+  color: var(--Primary-text-color, #212121);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.checkoutpage aside.sidebarckecout h5 a {
+  color: var(--green-teal-dark, #368C86);
+}
+.checkoutpage aside.sidebarckecout .signinpoint li {
+  color: var(--Primary-text-color, #212121);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 6px 45px;
+  position: relative;
+}
+.checkoutpage aside.sidebarckecout .signinpoint li span {
+  font-weight: 700;
+}
+.checkoutpage aside.sidebarckecout .signinpoint li::before {
+  content: "\f00c";
+  position: absolute;
+  left: 23px;
+  font-family: "FontAwesome";
+  color: var(--green-teal-darker);
+}
+.checkoutpage aside.sidebarckecout .Price-Breaku li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #D8DCE1;
+  padding: 13px 0px;
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.5px; /* 150% */
+  margin: 0px 15px;
+}
+.checkoutpage aside.sidebarckecout .Price-Breaku li small {
+  display: block;
+}
+.checkoutpage aside.sidebarckecout .Price-Breaku li.discount {
+  color: var(--green-teal-dark, #368C86) !important;
+}
+.checkoutpage aside.sidebarckecout .Price-Breaku li.total {
+  background: #F2F2F2;
+  margin: 0px;
+  padding: 14px 15px;
+}
+.checkoutpage aside.sidebarckecout .discontcoupen li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px dashed #ccc;
+  margin: 10px 0px;
+  padding: 9px;
+  margin-bottom: 21px;
+}
+.checkoutpage aside.sidebarckecout .discontcoupen li small {
+  color: #7A7A7A;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.6px; /* 120% */
+  display: block;
+  margin-left: 24px;
+}
+.checkoutpage aside.sidebarckecout .discontcoupen li label.form-check-label {
+  color: var(--grey-icon-color, #3B4249);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.checkoutpage aside.sidebarckecout .discontcoupen li .pricebar {
+  color: var(--grey-icon-color, #3B4249);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 150% */
+}
+.checkoutpage aside.sidebarckecout .discontcoupen li.appylyfild {
+  border: 0px;
+  padding: 0px;
+}
+.checkoutpage aside.sidebarckecout .discontcoupen li.appylyfild input.inputfild {
+  width: 80%;
+  padding: 7px 5px;
+}
+.checkoutpage aside.sidebarckecout .discontcoupen li.appylyfild input[type=submit] {
+  width: 28%;
+  border: 0px;
+  background: var(--green-teal-darker, #2F6562);
+  color: var(--White, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
 }
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
